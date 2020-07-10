@@ -32,13 +32,13 @@
     </div>
     <script>
         let i=document.getElementsByTagName('div');
+        bgchange();
         setInterval('bgchange()',1000);
         function bgchange(){
             for(var e=1;e<i.length;e++){
             var rand="#"+ Math.round(Math.random()*1000000);
             i[e].style.backgroundColor=rand;
             i[e].style.animationDelay=Math.random();
-            console.log(e)
             }
         }
     
