@@ -85,7 +85,7 @@ div:nth-child(9),
 div:nth-child(13) {
   --h: 300px;
   --t: 77px;
-    animation-delay: ;
+    animation-delay: 900ms;
 }
 div:nth-child(10),
 div:nth-child(12) {
