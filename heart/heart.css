@@ -27,7 +27,7 @@ body{
 .container div {
   position: relative;
   width: 20px;
-  animation: cc 1s infinite alternate-reverse;
+  animation: cc 1.1s infinite alternate-reverse;
   margin: 1px;
   border-radius: 20px;
   background-color: white;
